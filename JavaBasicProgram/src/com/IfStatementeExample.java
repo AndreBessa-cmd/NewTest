@@ -14,6 +14,8 @@ public class IfStatementeExample {
 		int a=10, b=50;
 		if (a>b) {
 			System.out.println("A is largest");
+		}else if(a==b){
+			System.out.println("A and B are Equal");
 		}else {
 			System.out.println("B is largest");
 		}
