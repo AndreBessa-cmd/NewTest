@@ -25,10 +25,16 @@ public class EmployeeTest {
 		dev1.disEmployee();
 		dev1.disDeveloper();
 		
-//		ProjectManager proj1 = new ProjectManager();
-//		proj1.disProjM();
-//		
-//		proj1.disEmployee();
+		ProjectManager proj1 = new ProjectManager();
+		proj1.setEmployee(105, "Miguel", 60000);
+		System.out.println("Project Manager Details");
+		proj1.setManager(25);
+		proj1.setProjectManager("Vodafone");
+		proj1.disEmployee();
+		proj1.disManager();
+		proj1.disProjM();
+		
+		
 	}
 
 }

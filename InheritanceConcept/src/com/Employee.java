@@ -15,7 +15,7 @@ public class Employee {
 //		System.out.println("Employee details");
 		System.out.println("ID is "+this.id);
 		System.out.println("name is "+this.name);
-		System.out.println("salar is "+this.salary);
+		System.out.println("salary is "+this.salary);
 		
 	}
 
